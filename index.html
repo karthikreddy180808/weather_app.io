@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>weather app</title>
+</head>
+<body>
+<div class="main">
+
+    <select id="cities">
+        <option value="hyderabad">hyderabad</option>
+        <option value="mumbai">mumbai</option>
+        <option value="chennai">chennai</option>
+        <option value="delhi">delhi</option>
+    </select>
+    <input id="btn" type="button" value="Enter" onclick="GetSelectedTextValue()" />
+
+    <h1 id="place"></h1>
+    <h1>Temparature</h1>
+    <h1 id="weather">-˚C</h1> 
+    <h1>Feels like</h1>
+    <h1 id="feels-like">-˚C</h1> 
+    <img src=""  id="pic">
+
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
